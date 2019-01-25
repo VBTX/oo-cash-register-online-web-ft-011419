@@ -17,7 +17,7 @@ class CashRegister
       @basket << title
       @@all << @basket
       end
-      self.last_transaction = price*quantity
+      @last_transaction = price*quantity
     end
 
 
